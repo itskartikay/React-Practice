@@ -3,7 +3,9 @@
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React Logo" width="auto" height="250" />
 </div>
-<br>
+
+---
+
 Welcome to my React JS practice projects repository! This repository contains a collection of small projects I've been working on to improve my React skills. Each project is designed to explore different concepts, features, and techniques within the React ecosystem.
 
 ## Table of Contents
