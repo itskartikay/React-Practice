@@ -1,6 +1,8 @@
 # React JS Practice Projects
 
-![React Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
+<div align="center">
+  <img src="[image_url_here](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)" alt="React Logo" width="250" height="250" />
+</div>
 
 Welcome to my React JS practice projects repository! This repository contains a collection of small projects I've been working on to improve my React skills. Each project is designed to explore different concepts, features, and techniques within the React ecosystem.
 
@@ -42,5 +44,5 @@ If you find any issues, have suggestions, or want to contribute to any of the pr
 
 ---
 
-Happy coding!
+##Happy coding!
 
