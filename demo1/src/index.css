@@ -1,0 +1,54 @@
+/* Reset default margin and padding */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333; /* Dark text color on white background */
+}
+
+h1 {
+  font-size: 36px;
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.pain-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pain-card {
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.pain-card h3 {
+  font-size: 24px;
+  color: orange;
+}
+
+.pain-card p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style the click event */
+.pain-card:hover {
+  cursor: pointer;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the click event for h3 and p */
+.pain-card:hover h3,
+.pain-card:hover p {
+  color: #ff6600; /* Brighter orange on hover */
+}
