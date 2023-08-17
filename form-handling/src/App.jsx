@@ -35,14 +35,14 @@ const App = () => {
             value={fname}
             onChange={inputEvent}>
           </input>
-
+          <br/>
           <input
             type="text"
-            placeholder="First Name"
+            placeholder="Second Name"
             value={sname}
             onChange={inputEvent2}>
           </input>
-
+          <br/>
           <button onClick={onSubmit}>Click Me</button>
       </form>
     </>
