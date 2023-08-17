@@ -6,15 +6,15 @@ const App = () => {
 
     const [ctime, setCtime] = useState(newTime);
 
-    const updatedTime = () => {
+    const updatedTime = setInterval(() => {
         newTime = new Date().toLocaleTimeString();
         setCtime(newTime);
-    }
+    },1000)
 
     return(
         <>
             <h1>{ctime}</h1>
-            <button onClick={updatedTime}>Get Time</button>
+            {/* <button onClick={updatedTime}>Get Time</button> */}
         </>
     )
 }
