@@ -1,0 +1,23 @@
+.main-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buts{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.butt{
+    padding: 10%;
+    margin: 0% 16px !important;
+    width: 10rem;
+    height: 10rem;
+}
+
+h1{
+    font-family: "Monaco", monospace;
+    font-size: 10rem;
+}
