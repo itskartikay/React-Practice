@@ -1,11 +1,19 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
+import About from "./About";
+import Contact from "./Contact";
 
-function App() {
+const App = () => {
   return (
     <>
-      <p>
-        OLA!
-      </p>
+    <Routes>
+      <Route path="/" element={<About/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+    </Routes>
+
+    {/* <About/>
+    <Contact/> */}
+
     </>
   );
 }
